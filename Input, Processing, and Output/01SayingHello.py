@@ -1,4 +1,4 @@
-#Without using any variablesshadbvhshdbcshvbsjdvbasjdvbasjdvb
+#Without using any variables
 print("Hello, " + input("What is your name? ") + ", nice to meet you!")
 
 # Different Greeting for Different People
