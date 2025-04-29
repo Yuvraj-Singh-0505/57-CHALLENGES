@@ -1,5 +1,5 @@
 #Without using any variables
-print("Hello, " + input("What is your name? ") + ", nice to meet you!")
+print("Hello, " + input("What is your name? ") + ", good to see you!")
 
 # Different Greeting for Different People
 name = input("What is your name? ")
