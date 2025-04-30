@@ -1,5 +1,5 @@
 name = input("What is your name? ")
-if name.lower() == "yuvraj":
+if name.lower() == "rakesh":
     greeting = "Good Morning Rakesh Sir!"
 elif name.lower() == "Shubhi":
     greeting = "Good to see you Shubhi"
