@@ -7,9 +7,6 @@ import random
 import string
 import pickledb
 
-# export FLASK_APP=app.py
-# flask run
-
 def is_url(form, field):
     if not field.data.startswith('https://'):
         raise validators.ValidationError('A valid url is required')
@@ -56,5 +53,5 @@ def create_url(url_id):
         session['short_url'] = f'{request.base_url}{key}'
         form.url.data = None
         return redirect(url_for('create_url'))
-
+    
     return render_template('index.html', form=form, url=session.get('url', None))
